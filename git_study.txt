@@ -23,7 +23,7 @@
   git reset --mixed<commit> : commit 내역을 되돌리고 staging까지 취소
   --------------- 파일 영향 x -----------------
   git reset --hard<commit> : commit 내역을 되돌리고 파일을 rollback
-
+  git revert <commit> : 지정한 commit으로 인해 발생한 변경을 되돌리고, 새로운 commit 을 생성해 commit에 추가
 
 
 
