@@ -46,7 +46,8 @@
       conflict가 발생하면 발생한 라인을 git이 head로 표시 해준다.
       사용할 코드를 제외한 나머지는 삭제하고 add 이후 commit하여 충돌 해결
 
- 
+9. git personal 토큰 발급 받아야 egit과 연동 가능
+   사용자 setting > developer settings > personal access에서 발급 가능
   
 
  
