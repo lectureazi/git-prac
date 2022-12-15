@@ -33,6 +33,8 @@
       git push -u origin main
 		-u : push할 기본 원격저장소와 브랜치를 기억
 		앞으로는 git push 만 해도 원격저장소와 브랜치를 잡아준다.
+		
+
 
 7. git 브랜치
       git checkout -b <브랜치명> : 새로운 브랜치를 생성하고 이동
@@ -49,6 +51,9 @@
 9. git personal 토큰 발급 받아야 egit과 연동 가능
    사용자 setting > developer settings > personal access에서 발급 가능
   
-
+10. 기존 git을 github repository와 연동
+    github access token을 발급
+    git remote url을 변경
+    git remote set-url origin https://<username>:<access token>@github.com/<username>/<repository name>.git
  
  
